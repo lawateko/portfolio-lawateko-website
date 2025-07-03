@@ -460,6 +460,7 @@ input::placeholder {
 
 .footer-container {
   display: flex;
+  flex-wrap: wrap;
   background-color: #121226;
   justify-content: space-between;
   padding: 1.3rem 3rem;
@@ -473,7 +474,7 @@ input::placeholder {
 
 .footer-container .logo-footer i {
   font-size: 1.5rem;
-  padding: 0 0.4rem;
+  padding: 0 0.2rem;
   color: #dcdcdc;
 }
 
@@ -487,5 +488,8 @@ input::placeholder {
   }
   .contact .row .map {
     height: 25rem;
+  }
+  .footer-container .logo-footer {
+    margin-top: 2rem;
   }
 }
