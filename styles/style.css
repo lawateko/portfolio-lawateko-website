@@ -1,4 +1,4 @@
-/* Starter */
+/* Style Awal */
 
 * {
   margin: 0;
@@ -31,15 +31,13 @@ body {
   padding-bottom: 4rem;
 }
 
-/* Starter end */
-
-/* Navbar Style */
+/* BAGIAN NAVBAR STYLE */
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.6rem 7%;
+  padding: 0.9rem 7%;
   background-color: rgba(18, 18, 38, 0.8);
   border-bottom: 1px solid #4a4949;
   position: sticky;
@@ -54,29 +52,26 @@ body {
   font-weight: 600;
   color: #fff;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  border-bottom-style: solid;
-  border-width: 5px;
-  border-color: #a9a9a9;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  padding: 0.2rem 0;
 }
 
 .navbar .navbar-nav a {
   color: #c7c7c7;
   display: inline-block;
   font-size: 1.1rem;
-  margin: 0 0.8rem;
+  margin: 0 0.9rem;
   font-weight: 100;
-  transition: 0.8s;
+  transition: 0.6s;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
 }
 
 .navbar .navbar-nav a:hover {
+  border-bottom-color: #dadada;
   color: #fff;
-  transition: 0.8s;
+  transition: 0.4s;
 }
 
-/* HOME PAGE*/
+/* BAGIAN HOME STYLE */
 
 .home {
   min-height: 90vh;
@@ -125,9 +120,8 @@ body {
   filter: grayscale(0%);
   transition: 0.6s;
 }
-/* HOME END */
 
-/* ABOUT PAGE */
+/* BAGIAN ABOUT STYLE */
 
 .about {
   background-color: rgb(18, 18, 38);
@@ -177,9 +171,7 @@ body {
   transition: 0.5s;
 }
 
-/* ABOUT END */
-
-/* CARD BLOG ARTICLE */
+/* STYLE UNTUK BAGIAN ARTICLE/BLOG, KHUSUSNYA UNTUK BAGIAN CARD-NYA */
 
 .article {
   margin-bottom: 70px;
@@ -254,9 +246,7 @@ body {
   color: #fff;
 }
 
-/* END BLOG/ARTICLE */
-
-/* STYLE UNTUK BAGIAN DALAM CONTENT ARTICLE */
+/* STYLE UNTUK BAGIAN DALAM CONTENT ARTICLE/BLOG */
 
 .post-header {
   width: 100%;
@@ -312,8 +302,6 @@ body {
   text-align: justify;
 }
 
-/* AKHIR STYLE CONTENT ARTIKEL */
-
 /* BLOCKQUOTE UNTUK ARTIKEL 2 */
 .blockquote {
   border-left: #ffaf2f 3px solid;
@@ -327,8 +315,6 @@ body {
   line-height: 1.7rem;
 }
 
-/* END */
-
 /* STYLE UNTUK BAGIAN IMG ARTICLE 3 */
 
 .image-second {
@@ -339,9 +325,7 @@ body {
   padding: 20px;
 }
 
-/* END */
-
-/* BUTTON EXIT UNTUK ARTICLE */
+/* BUTTON EXIT UNTUK ARTICLE/BLOG */
 
 .btn-container {
   text-align: end;
@@ -359,9 +343,7 @@ body {
   color: #f2f2f2;
 }
 
-/* END */
-
-/* Gallery Styling */
+/* BAGIAN GALLERY STYLE */
 
 .gallery {
   background-color: #121226;
@@ -401,9 +383,7 @@ body {
   border: 2px solid #757575;
 }
 
-/* end */
-
-/* Contact Styling */
+/* BAGIAN CONTACT STYLE */
 
 .contact .contact-content h2 {
   text-align: center;
@@ -473,9 +453,7 @@ input::placeholder {
   cursor: pointer;
 }
 
-/* end */
-
-/* footer styling */
+/* BAGIAN FOOTER STYLE */
 
 .flex-container {
   padding-top: 2100px;
@@ -500,8 +478,6 @@ input::placeholder {
   padding: 0 0.2rem;
   color: #dcdcdc;
 }
-
-/* footer end */
 
 /* Media Query */
 
