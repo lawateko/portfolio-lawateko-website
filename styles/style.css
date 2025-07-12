@@ -121,6 +121,53 @@ body {
   transition: 0.6s;
 }
 
+/* UNTUK BAGIAN LATEST ARTICLE/BLOG STYLE */
+
+.artikel-terbaru .latest-article-box {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 1.1rem;
+  margin-bottom: 4rem;
+  overflow: hidden;
+}
+
+.latest-article-box .latest-box {
+  height: 350px;
+  width: 400px;
+  border-radius: 5px;
+  object-fit: cover;
+  background: #121226;
+  padding: 7px;
+  box-shadow: 0 4px 14px hsl(355deg, 25%, 15% / 10%);
+  border: 2px solid #757575;
+}
+
+.latest-article-box .latest-box img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+
+.latest-article-box .latest-box .btn-to-blog {
+  display: inline-block;
+  margin-top: 14px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #397af3;
+  padding: 10px 15px;
+  border-radius: 5px;
+  /* transition: 0.5s; */
+}
+
+.latest-article-box .latest-box .btn-to-blog:hover {
+  background-color: #286ce9;
+  color: #fff;
+  /* transition: 0.5s; */
+}
+
 /* BAGIAN ABOUT STYLE */
 
 .about {
@@ -140,6 +187,7 @@ body {
   color: #fff;
   margin-bottom: 3rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .about-content p {
@@ -209,13 +257,14 @@ body {
 }
 
 .post-title {
+  margin-top: 10px;
   font-size: 1.1rem;
   font-weight: 600;
   display: -webkit-box;
   line-clamp: 2;
   box-orient: vertical;
   overflow: hidden;
-  text-decoration: none;
+  text-decoration: underline;
   color: #fff;
 }
 
