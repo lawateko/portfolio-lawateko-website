@@ -110,7 +110,7 @@ body {
   width: 310px;
   height: 400px;
   object-fit: cover;
-  border: 5px solid #e2e2e2;
+  border: 2px solid #e2e2e2;
   border-radius: 5px;
   filter: grayscale(100%);
   transition: 0.6s;
@@ -141,7 +141,7 @@ body {
   background: #121226;
   padding: 7px;
   box-shadow: 0 4px 14px hsl(355deg, 25%, 15% / 10%);
-  border: 2px solid #757575;
+  /* border: 2px solid #757575; */
 }
 
 .latest-article-box .latest-box img {
@@ -428,7 +428,7 @@ body {
   height: 300px;
   object-fit: cover;
   border-radius: 5px;
-  border: 2px solid #757575;
+  /* border: 2px solid #757575; */
 }
 
 /* BAGIAN CONTACT STYLE */
